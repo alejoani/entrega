@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__imagen {
+    width: auto;
+    height: 300px;
+}
+
+.nav {
+    background-color: black;
+    text-align: center;
+}
+
+.lista__desordenada {
+    text-decoration: none;
+}
+
+.lista__desordenada__item {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.lista__desordenada__item__a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.lista__desordenada__item__a:hover {
+    background-color: rgba(0, 255, 242, 0.329)
+}
+
+
+.section__title {
+    grid-area: titulo;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(236, 25, 25, 0.856);
+}
+
+.section__parrafo {
+    grid-area: texto;
+    height: auto;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tarjetitas {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 60px;
+}
+
+.tarjetita {
+    background-color: rgba(236, 25, 25, 0.856);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 15px;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+
+}
+
+.tarjetita__img {
+    max-width: 100%;
+}
+
+.tarjetita__a {
+    color: white;
+    text-decoration: none;
+}
+
+.fotter {
+    background-color: rgba(236, 25, 25, 0.856);
+}
+
+.fotter__text {
+    font-size: 20px;
+    border-top: 5px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+@media (max-width: 600px) {
+    .tarjetitas {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__imagen {
+        display: none;
+    }
+
+    body {
+        background-image: url(../asset/imagen\ de\ fondo.jpg);
+    }
+
+    .section__title {
+        background-color: transparent;
+
+    }
+
+    .nav {
+        border: 2px solid red;
+    }
+
+    .lista__desordenada__item__a {
+        font-size: 20px;
+    }
+
+    .tarjetitas {
+        flex-direction: column;
+    }
+
+    .fotter {
+        background-color: red;
+    }
+}

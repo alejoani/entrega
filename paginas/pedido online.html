@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../asset/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/pedido online.css">
+
+    <title>Pedido de forma online</title>
+</head>
+
+<header class="header">
+
+    <nav class="nav">
+
+        <ul class="lista__desordenada">
+            <li class="lista__desordenada__item">
+                <a class="lista__desordenada__item__a" href="../index.html">Pagina Principal</a>
+            </li>
+            <li class="lista__desordenada__item">
+                <a class="lista__desordenada__item__a" href="./menu.html">Menu</a>
+            </li>
+            <li class="lista__desordenada__item">
+                <a class="lista__desordenada__item__a" href="./promociones.html">Promociones</a>
+            </li>
+            <li class="lista__desordenada__item">
+                <a class="lista__desordenada__item__a" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="lista__desordenada__item">
+                <a class="lista__desordenada__item__a" href="./pedido online.html">Haga su pedido de Forma online</a>
+            </li>
+        </ul>
+        
+    </nav>
+
+</header>
+
+<body class="body">
+    
+    <section class="body__section" >
+        <form action="send.php" method="get" enctype="multipart/form-data"></form>
+        <input class="body__section__imput" type="text" placeholder="Ingrese su nombre Completo" />
+        <input class="body__section__imput" type="text" placeholder="Domicilio" />
+        <textarea class="body__section__imput__textarea" name="Datos extras" id="" cols="30" rows="10" placeholder="Escriba datos extra sobre su pedido" ></textarea>
+
+    </section>
+
+    <section class="section">
+        <form action=""></form>
+        <input class="section__input" type="radio">Pizza de Muzzarela
+        <p>$1.100</p>
+        <input class="section__input" type="radio">Pizza napolitana
+        <p>$1.500</p>
+        <input class="section__input" type="radio">Pizza de Caprese
+        <p>$1.600</p>
+        <input class="section__input" type="radio">Pizza de Jamon y Morrones
+        <p>$1.600</p>
+        <input class="section__input" type="radio">Pizza de Palmitos
+        <p>$1.500</p>
+    </section>
+
+    <div class="div" >
+        <button  class="div__button" type="submit">Enviar mi pedido</button>
+        <button class="div__button" type="reset">Borrar pedido</button>
+    </div>
+    
+
+    <footer class="footer">
+        <p class="footer__text">No te pierdas la promo de pagando con tarjeta un 20% de descuento</p>
+    </footer>
+</body>
+
+</html>
