@@ -76,4 +76,8 @@
     color: black;
     font-size: 20px;
 }
-
+@media (max-width: 675px) {
+    body {
+        background-image: url(../asset/imagen\ de\ fondo.jpg);
+    }
+}

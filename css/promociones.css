@@ -68,4 +68,53 @@ footer{
     color: rgb(189, 226, 21);
     font-size: 20px;
 }
+@media (max-width: 869px) {
+    body {
+        background-image: url(../asset/imagen\ de\ fondo.jpg);
+    }
+    .tarjetitas {
+        flex-direction: column;
 
+
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(../asset/imagen\ de\ fondo.jpg);
+    }
+    .tarjetitas {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__imagen {
+        display: none;
+    }
+
+    body {
+        background-image: url(../asset/imagen\ de\ fondo.jpg);
+    }
+
+    .section__title {
+        background-color: transparent;
+
+    }
+
+    .nav {
+        border: 2px solid red;
+    }
+
+    .lista__desordenada__item__a {
+        font-size: 20px;
+    }
+
+    .tarjetitas {
+        flex-direction: column;
+    }
+
+    .fotter {
+        background-color: red;
+    }
+}
