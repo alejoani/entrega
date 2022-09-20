@@ -1,32 +1,6 @@
-* {
+/* * {
     margin: 0%;
     padding: 0%;
-}
-
-.nav {
-    text-align: center;
-    background-color: black;
-    text-align: center;
-}
-
-.lista__desordenada {
-    text-decoration: none;
-}
-
-.lista__desordenada__item {
-    text-decoration: none;
-    display: inline-block;
-}
-
-.lista__desordenada__item__a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.lista__desordenada__item__a:hover {
-    background-color: #00fff254;
 }
 
 .section {
@@ -83,4 +57,4 @@ footer {
         display: block;
         background-color: rgba(241, 10, 10, 0.644);
     }
-}
+} */

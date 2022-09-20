@@ -1,0 +1,342 @@
+promociones
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.tarjetitas{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 60px;
+    width: 100%;
+    max-height: 500px;
+}
+.tarjetita{
+    background-color:rgba(236, 25, 25, 0.856) ;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 15px;
+    max-height: 100%;
+    width: 100%;
+}
+
+.informacion{
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.tarjetita__img{
+    max-width: 100%;
+    max-height: 30%;
+}
+.tarjetita__a{
+    color: white;
+    text-decoration: none;
+}
+.section__button{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+}
+.section_2{
+    text-align: center;
+}
+footer{
+    border-top: 5px solid black;
+    background-color: red;
+    text-align: center;
+}
+.footer__text{
+    color: rgb(189, 226, 21);
+    font-size: 20px;
+}
+
+
+
+.tarjetitas{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 60px;
+    max-width: 100%;
+    max-height: 500px;
+}
+/* .tarjetita{
+    background-color:rgba(236, 25, 25, 0.856) ;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 15px;
+    max-height: 100%;
+    max-width: 100%;
+} */
+
+/* .informacion{
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.tarjetita__img{
+    max-width: 100%;
+    max-height: 30%;
+}
+.tarjetita__a{
+    color: white;
+    text-decoration: none;
+} */
+.section__button{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+}
+.body__img{
+    height: 400px;
+    width: 100%;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat( 1fr,1fr);
+    justify-items:center ;
+    background-color: black;
+    font-size: 25px;
+}
+.section__table{
+    background-color: black;
+}
+.section__table__text{
+    padding: 5px;
+    color: white;
+}
+
+
+
+
+index
+
+
+
+
+
+.section__parrafo {
+    grid-area: texto;
+    height: auto;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* .tarjetitas {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 60px;
+}
+
+.tarjetita {
+    background-color: rgba(236, 25, 25, 0.856);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 15px;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+
+}
+
+.tarjetita__img {
+    max-width: 100%;
+}
+
+.tarjetita__a {
+    color: white;
+    text-decoration: none;
+}
+.tarjetita__a_btn{
+    background-color: rgba(255, 255, 255, 0.692);
+    border: 0.5px solid black;
+    transition: 0,5;
+} */
+
+
+
+contacto
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+.section__text {
+    background-color: #3d2e2e80;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 20px;
+    width: 100%;
+}
+
+.informacion {
+    display: inline-block;
+    height: 100%;
+    padding: 30px;
+}
+
+.informacion__title {
+    color: red;
+    text-align: center;
+}
+
+.informacion__subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion__texto {
+    font-size: larger;
+}
+.section{
+    padding: 20px;
+}
+.section__title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.section__div {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 251, 0, 0.63);
+    margin-bottom: 0;
+}
+.footer{
+    background-color:  rgba(236, 25, 25,0.856);
+}
+.footer__text{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.fotter__text {
+    font-size: 20px;
+    border-top: 5px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+@media (max-width: 945px) {
+    .section{
+        display: block;
+        background-color: rgba(241, 10, 10, 0.644);
+    }
+    @media (max-width: 675px) {
+        body {
+            background-image: url(../asset/imagen\ de\ fondo.jpg);
+        }
+    }
+    @media (max-width: 600px) {
+        .tarjetitas {
+            flex-direction: column;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .header__imagen {
+            display: none;
+        }
+    
+        body {
+            background-image: url(../asset/imagen\ de\ fondo.jpg);
+        }
+    
+        .section__title {
+            background-color: transparent;
+    
+        }
+    
+       
+        .tarjetitas {
+            flex-direction: column;
+        }
+    
+        .fotter {
+            background-color: red;
+        }
+    }
+    @media (max-width: 869px) {
+        body {
+            background-image: url(../asset/imagen\ de\ fondo.jpg);
+        }
+        .tarjetitas {
+            flex-direction: column;
+    
+    
+        }
+    }
+    
+    @media (max-width: 600px) {
+        body {
+            background-image: url(../asset/imagen\ de\ fondo.jpg);
+        }
+        .tarjetitas {
+            flex-direction: column;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .header__imagen {
+            display: none;
+        }
+    
+        body {
+            background-image: url(../asset/imagen\ de\ fondo.jpg);
+        }
+    
+        .section__title {
+            background-color: transparent;
+    
+        }
+    
+        .nav {
+            border: 2px solid red;
+        }
+    
+        .lista__desordenada__item__a {
+            font-size: 20px;
+        }
+    
+        .tarjetitas {
+            flex-direction: column;
+        }
+    
+        .fotter {
+            background-color: red;
+        }
+    }
+}
