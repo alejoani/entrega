@@ -53,20 +53,6 @@
     height: 400px;
     width: 100%;
 }
-.section{
-    display: grid;
-    grid-template-columns: repeat( 1fr,1fr);
-    justify-items:center ;
-    background-color: black;
-    font-size: 25px;
-}
-.section__table{
-    background-color: black;
-}
-.section__table__text{
-    padding: 5px;
-    color: white;
-}
 
 .footer{
     background-color:  rgba(236, 25, 25,0.856);

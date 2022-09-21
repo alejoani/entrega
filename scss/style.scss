@@ -1,1 +1,6 @@
-@import "./component/header";
+@import "../scss/styles/parcials/variables";
+@import "./styles/parcials/reset";
+@import "../scss/styles/parcials/hader";
+@import "../scss/styles/parcials/tarjetitas";
+@import "./styles/parcials/section";
+@import "../scss/styles/parcials/footer";
