@@ -1,11 +1,9 @@
 .section {
+    display: block;
+    }
+
+.section_contacto{
     display: flex;
     justify-content: space-around;
-    .section__parrafo {
-        background-color: $secondaricolor;
-        justify-content: space-around;
-        font-size: 20px;
-        height: 20px;
-        width: 100%;}
+    background-color: rgba(37, 16, 16, 0.596);
 }
-

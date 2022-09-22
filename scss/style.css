@@ -99,15 +99,13 @@
   }
 }
 .section {
+  display: block;
+}
+
+.section_contacto {
   display: flex;
   justify-content: space-around;
-}
-.section .section__parrafo {
-  background-color: rgba(153, 23, 23, 0.76);
-  justify-content: space-around;
-  font-size: 20px;
-  height: 20px;
-  width: 100%;
+  background-color: rgba(37, 16, 16, 0.596);
 }
 
 footer {
