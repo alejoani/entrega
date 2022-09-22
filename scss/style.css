@@ -57,6 +57,26 @@
   max-width: 100%;
   max-height: 30%;
 }
+.tarjetitas .tarjetita .informacion .tarjetita_1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.tarjetitas .tarjetita .informacion .tarjetita_2 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.tarjetitas .tarjetita .informacion .tarjetita_3 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.tarjetitas .tarjetita .informacion .tarjetita_4 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.tarjetitas .tarjetita .informacion .tarjetita_5 {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
 
 @-webkit-keyframes swirl-in-fwd {
   0% {
