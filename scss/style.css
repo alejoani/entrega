@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap");
+.container, .tarjetitas .tarjetita {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  gap: 15px;
+  max-height: 100%;
+  width: 100%;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -35,15 +45,8 @@
   -webkit-animation: swirl-in-fwd 0.6s ease-out;
   animation: swirl-in-fwd 0.6s ease-out;
   background-color: rgba(238, 0, 0, 0.856);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  border-radius: 30px;
-  gap: 15px;
-  max-height: 100%;
-  width: 100%;
 }
-.tarjetitas .tarjetita .informacion {
+.tarjetitas .informacion {
   padding: 0 20px 20px 20px;
   text-align: center;
   width: 100%;
@@ -52,27 +55,27 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.tarjetitas .tarjetita .informacion .tarjetita__img {
+.tarjetitas .informacion .tarjetita__img {
   max-width: 100%;
   max-height: 30%;
 }
-.tarjetitas .tarjetita .informacion .tarjetita_1 {
+.tarjetitas .informacion .tarjetita_1 {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
-.tarjetitas .tarjetita .informacion .tarjetita_2 {
+.tarjetitas .informacion .tarjetita_2 {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
-.tarjetitas .tarjetita .informacion .tarjetita_3 {
+.tarjetitas .informacion .tarjetita_3 {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
-.tarjetitas .tarjetita .informacion .tarjetita_4 {
+.tarjetitas .informacion .tarjetita_4 {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
-.tarjetitas .tarjetita .informacion .tarjetita_5 {
+.tarjetitas .informacion .tarjetita_5 {
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
 }
@@ -107,6 +110,16 @@
   background-color: rgba(37, 16, 16, 0.596);
 }
 
+.section_table {
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  margin: 5px;
+}
+
 footer {
   text-align: center;
   font-size: 20px;
@@ -130,4 +143,19 @@ footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .body {
+    height: auto;
+    background-image: url("/asset/imagen de fondo.jpg");
+  }
+  .header__img {
+    display: none;
+  }
+  .tarjetitas {
+    display: block;
+    width: auto;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

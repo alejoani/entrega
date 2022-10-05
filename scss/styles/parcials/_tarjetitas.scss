@@ -10,13 +10,8 @@
         -webkit-animation:swirl-in-fwd .6s ease-out;
         animation:swirl-in-fwd .6s ease-out;
         background-color: $maincolor ;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        border-radius: 30px;
-        gap: 15px;
-        max-height: 100%;
-        width: 100%;
+        @extend .container;
+    }
 
         .informacion{
             padding: 0 20px 20px 20px;
@@ -50,5 +45,4 @@
         
         }
     }
-}
  @-webkit-keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}@keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}

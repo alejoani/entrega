@@ -1,0 +1,14 @@
+@media (max-width: 768px ) {
+    .body{
+        height: auto;
+        background-image: url("/asset/imagen\ de\ fondo.jpg");
+    }
+    .header__img{
+        display: none;
+    }
+    .tarjetitas{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}
